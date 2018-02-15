@@ -12,6 +12,8 @@ Bu uygulama ikiden fazla sayının toplama , çıkarma , çarpma ve bölme işle
 Sorumluluklar : <br>
 Mehmet ACAR : Bu uygulamada sorumluluğum , uygulamanın anasayfası olan index.html , toplama ve çıkarma işlemlerini gerçekleştirecek toplama.html ve cikarma.html sayfalarının yapımı bana aittir.
 <br>
+Yeşim DAŞTAN:<br>
+Bu proje kapsamında ilgili uygulama hakkında çarpma ve bölme fonksiyonlarının gerçekleştirileceği carpma.html ve bolme.html sayfalarının yazımı ve proje görsel tasarımı bana aittir.
 
 
 
