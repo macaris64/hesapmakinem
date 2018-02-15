@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Hesap Makinesi</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid">
+        <div class="row">
+          <div class="col-md-12 col-xs-12">
+            <a href="toplama.html"><button class="col-md-3 btn btn-primary btn-lg text-center" type="button" name="button">Toplama</button></a>
+            <a href="cikarma.html"><button class="col-md-3 btn btn-warning btn-lg text-center" type="button" name="button">Çıkarma</button></a>
+            <a href="carpma.html"><button class="col-md-3 btn btn-success btn-lg text-center" type="button" name="button">Çarpma</button></a>
+            <a href="bolme.html"><button class="col-md-3 btn btn-danger btn-lg text-center" type="button" name="button">Bölme</button></a>
+          </div>
+          <form name="calculator">
+            <div class="col-md-12 col-xs-12">
+              <input class="col-md-4 col-xs-4 btn btn-info" type="button" value="1" onClick="document.calculator.ans.value+='1'">
+              <input class="col-md-4 col-xs-4 btn btn-info" type="button" value="2" onClick="document.calculator.ans.value+='2'">
+              <input class="col-md-4 col-xs-4 btn btn-info" type="button" value="3" onClick="document.calculator.ans.value+='3'">
+            </div>
+          <div class="col-md-12 col-xs-12">
+            <input class="col-md-4 col-xs-4 btn btn-info" type="button" value="7" onClick="document.calculator.ans.value+='7'">
+            <input class="col-md-4 col-xs-4 btn btn-info" type="button" value="8" onClick="document.calculator.ans.value+='8'">
+            <input class="col-md-4 col-xs-4 btn btn-info"type="button" value="9" onClick="document.calculator.ans.value+='9'">
+          </div>
+          <div class="col-md-12 col-xs-12">
+            <input class="col-md-12 col-xs-12 btn btn-info" type="button" value="0" onClick="document.calculator.ans.value+='0'">
+
+            <input class="col-md-12 col-xs-12 btn btn-warning" type="button" value="*" onClick="document.calculator.ans.value+='*'">
+          </div>
+
+          <div class="col-md-12 col-xs-12">
+            <input class="col-md-12 col-xs-12 btn btn-success" type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+          </div>
+          <div class="col-md-12">
+            <input class="btn btn-block btn-danger" type="reset" value="Reset">
+          </div>
+          <br>
+          <label class="col-md-6"for="sonuc">Solution is</label> <input class="col-md-5" type="textfield" name="ans" value="">
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
